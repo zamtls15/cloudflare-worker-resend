@@ -1,6 +1,7 @@
 name = "resend-worker"
 main = "src/index.js"
 compatibility_date = "2025-05-01"
-
+compatibility_flags = ["nodejs_compat"]
 [vars]
+
 # RESEND_API_KEY will be set in Cloudflare dashboard
